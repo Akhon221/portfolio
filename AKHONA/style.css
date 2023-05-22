@@ -36,7 +36,7 @@ ul li a:hover{
 }
 
 .info{
-    margin-left: 7%;
+    margin-left: 5%;
     margin-top: 6%;
 }
 
@@ -70,7 +70,7 @@ ul li a:hover{
 .image{
     width: 30%;
     height: 60%;
-    position: absolute;
+    position: relative;
     right: 100px;
     bottom: 0;
 }
@@ -78,8 +78,8 @@ ul li a:hover{
 .image img {
     position: absolute;
     height: 140%;
-    left: 40%;
-    transform: translate(-55%);
+    left: 50%;
+    transform: translate(-100%);
     bottom: 0;
     transition: left 2s ease;
 }
@@ -87,3 +87,8 @@ ul li a:hover{
 .image:hover .girl{
     left: 55%;
 }
+
+.image3 {
+    float: right; 
+}  
+
