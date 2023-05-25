@@ -11,50 +11,23 @@
     position: relative;
     font-family: sans-serif;
 }
-
-
-.navbar{
-    width: 86%;
+.nav-bar{
     display: flex;
-    margin: auto;
-    padding: 15px 0;
-    align-items: center;
-    justify-content: space-between;
-}
-ul{
-    margin-top: -4%;
-
-}
-ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px 16px;
-}
-ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px 16px;
+    position: relative; left: 1100px;
+    margin-left: 20px;
+    margin-bottom: 50px;
 }
 
- a{
-    font-size: 16px;
-    font-weight: bold;
-    color: darkslategray;
-    text-decoration: none;
-    margin-top: -3%;
-    transition: 4s ease;
-   
-}
 
-ul li a:hover{
-    color: red;
-}
+
+
+
+
 #soft{
     font-size: 40px;
 }
 .info{
-    position: relative; left: -850px; top: 300px;
-    
+  padding-top: 200px;    
 }
 .info h1{
     
@@ -62,8 +35,6 @@ ul li a:hover{
 }
 .info h1{
     font-size: 30px;
-    
-    
 }
 .info span{
     color: rgb(230,104,59);
@@ -78,7 +49,6 @@ ul li a:hover{
     display: inline-block;
     transition: 4s ease;
 }
-
 #pic2{
     position: relative;left: 860px; top: -390px;
     width: 700px;
@@ -112,7 +82,7 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
+
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
